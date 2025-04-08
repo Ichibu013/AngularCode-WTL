@@ -1,0 +1,29 @@
+<form [formGroup]="LoginFrom">
+  <div class="container mainDiv">
+    <div class="row m-2">
+      <div class="col-md-6">
+        <input class="form-control" name="Name" formControlName="Name" type="text" placeholder="Enter Name">
+      </div>
+      <div class="col-md-6">
+        <input class="form-control" name="Email" formControlName="Email" type="email" placeholder="Enter Email">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <input class="form-control" name="Mobile" formControlName="Mobile" type="number" placeholder="Enter Mobile">
+      </div>
+      <div class="col-md-6">
+        <input class="form-control" name="Password" formControlName="Password" type="password" placeholder="Enter Password">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+
+      </div>
+      <div class="col-md-6">
+        <button class="btn btn-success" type="button" (click)="SubmitForm()">Submit</button>
+      </div>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,18 @@
+.mainDiv{
+  width: 50%;
+  border-radius: 6px;
+  border: 2px solid #90bdf6;
+  padding: 27px;
+  box-shadow: 0 2px 10px #b7b7b7;
+}
+.mainDiv:hover{
+  border: 2px solid #6ea4e8;
+  box-shadow: 0 2px 10px #8f8c8c;
+}
+.button{
+  text-align: right;
+  margin-top: 14px;
+}
+input.form-control {
+  margin-bottom: 15px;
+}
